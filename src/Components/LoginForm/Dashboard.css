@@ -1,0 +1,56 @@
+.navbar{
+  background-color: cyan;
+  min-width: fit-content;
+  position: sticky;
+  top:0;
+  min-height: 30px;
+}
+.wrapper{
+  background: url(../Assets/wp5104087.webp) no-repeat fixed;
+  height:100vh;
+  min-width: fit-content;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+.navdiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  font-size: 35px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+li{
+  list-style: none;
+  display: inline-block;
+}
+li a{
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 50px;
+  color: black;
+}
+.hero{
+  height: calc(100vh - 50px);
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-width: fit-content;
+  max-width: fit-content;
+}
+
+.heroText{
+  font-size: 80px;
+  position: absolute;
+  left:0;
+  margin-left: 30%;
+  color: rgb(38, 44, 133) ;
+}
+.welcome{
+  font-size: 100px;
+}
